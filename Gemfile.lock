@@ -293,6 +293,7 @@ DEPENDENCIES
   jbuilder (~> 2.7)
   listen (~> 3.3)
   mysql2 (>= 0.4.4, < 0.6.0)
+  pry
   pry-byebug
   pry-rails
   puma (~> 5.0)
