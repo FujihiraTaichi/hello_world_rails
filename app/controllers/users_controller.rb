@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: %i[ show update destroy ]
 
   def index
-    binding.pry
+    # binding.pry
     @users = User.all
   end
 
@@ -17,7 +17,7 @@ class UsersController < ApplicationController
     #   account: params[:account],
     #   email: params[:email],
     # )
-    binding.pry
+    # binding.pry
     @user = User.new(user_params)
     #インスタンスをDBに保存する
     @user.save!
